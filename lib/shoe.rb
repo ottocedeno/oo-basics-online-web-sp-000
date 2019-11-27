@@ -1,6 +1,4 @@
 # Make your shoe class here!
-require "pry"
-
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -14,5 +12,3 @@ class Shoe
     @condition = "new"
   end
 end
-
-binding.pry
